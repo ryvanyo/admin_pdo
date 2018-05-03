@@ -1,0 +1,27 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+input{
+	font-family: 'Roboto', sans-serif;
+}
+form table td{
+	/*padding: 3px 10px;*/
+	vertical-align: top;
+}
+.error_message, .success_message{
+	/*background: #ffd9d9;*/
+	color: #d80000;
+	/*border: 1px solid #910000;*/
+	margin: .5em 10px .25em;
+	font-size: .75em;
+}
+.success_message{
+	color: #71894e;
+	background-color: #d2ff91;
+	border: 1px solid #71894e;
+	font-size: 1.25em;
+}
+.small-message{
+	font-size: .85em;
+	color: #808080;
+}
